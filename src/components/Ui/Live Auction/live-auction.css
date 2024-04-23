@@ -1,0 +1,99 @@
+
+.single_nft_card{
+    padding: 10px;
+    background: #24243d;
+    border-radius: 10px;
+}
+
+.nft_img img{
+    border-radius: 10px;
+
+}
+
+.nft_img {
+    margin-bottom: 15px;
+}
+
+.nft_title{
+    color: #fff;
+    font-size: .9rem;
+    margin-bottom: 15px;
+}
+
+.nft_title a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.nft_title a:hover{
+    color: #fff;
+}
+
+.creator_img{
+    width: 40px;
+    height: 40px;
+}
+
+.creator_img img{
+    border-radius: 50%;
+}
+
+.creator_info h6{
+    font-size: .7rem;
+    color: #fff;
+    opacity: 80%;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.creator_info p{
+    color: #fff;
+    font-size: .9rem;
+    margin-bottom: 0;
+    opacity: 100%;
+    font-weight: 500;
+}
+
+.creator_info{
+    margin-left: 10px;
+}
+
+.bid_btn {
+    border: none;
+    outline: none;
+    padding: 5px 22px;
+    background: transparent;
+    border: 1px solid #5142fe;
+    font-size: .9rem;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    background: #5142fe;
+}
+
+.bid_btn:hover {
+    background: #fff;
+    color: #5142fe;
+}
+
+.history_link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 85%;
+    font-size: .9rem;
+}
+
+.history_link a:hover{
+    color: #fff;
+}
+
+.live_auction_top h3{
+    color: #fff;
+}
+
+.live_auction_top span a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #5142fe;
+}
