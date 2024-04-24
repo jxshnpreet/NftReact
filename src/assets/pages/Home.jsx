@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'reactstrap';
 import HeroSection from '../../components/Ui/HeroSection';
 
 import LiveAuction from '../../components/Ui/Live Auction/LiveAuction';
@@ -12,9 +11,9 @@ const Home = () => {
     <>
       <HeroSection />
       <LiveAuction />
+      <StepSection />
       <SellerSection />
       <TrendingSection />
-      <StepSection />
     </>
   )
 }

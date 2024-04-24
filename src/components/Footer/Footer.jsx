@@ -67,7 +67,7 @@ const Footer = () => {
     <footer className='footer'>
     <Container>
       <Row>
-        <Col lg='3' md='6' sn='6'>
+        <Col lg='3' md='6' sm='6' className='mb-4'>
           <div className="logo">
             <h2 className="d-flex gap-2 align-items-center">
               <span>
@@ -76,12 +76,12 @@ const Footer = () => {
               NFTs
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur error autem ipsam voluptatem delectus unde, libero consequatur deserunt earum nobis fugiat omnis quis reprehenderit vero, nesciunt ullam minima quisquam. 
+            Created with the collaboration of over 60 of the world's best Nuron Artists. 
             </p>
           </div>
         </Col>
         
-        <Col lg='2' md='3' sn='6'>
+        <Col lg='2' md='3' sm='6' className='mb-4'>
           <h5>My Account</h5>
           <ListGroup className='list__group'>
             {
@@ -94,7 +94,7 @@ const Footer = () => {
           </ListGroup>
         </Col>
 
-        <Col lg='2' md='3' sn='6'>
+        <Col lg='2' md='3' sm='6' className='mb-4'>
           <h5>Resources</h5>
           <ListGroup className='list__group'>
             {
@@ -107,7 +107,7 @@ const Footer = () => {
           </ListGroup>
         </Col>
 
-        <Col lg='2' md='3' sn='6'>
+        <Col lg='2' md='3' sm='6' className='mb-4'>
           <h5>Company</h5>
           <ListGroup className='list__group'>
             {
@@ -120,7 +120,7 @@ const Footer = () => {
           </ListGroup>
         </Col>
         
-        <Col lg='3' md='6' sn='6'>
+        <Col lg='3' md='6' sm='6' className='mb-4'>
             <h5>NewsLetter</h5>
             <input type="text" className='newsletter' placeholder='Enter Your Email' />
             <div className="social_links d-flex gap-3 align-items-center">
