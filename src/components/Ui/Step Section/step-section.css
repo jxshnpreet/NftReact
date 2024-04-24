@@ -1,12 +1,14 @@
 .single_step_item {
     background: #343444;
+    position: relative;
     border-radius: 5px;
-    padding: 30px;
+    padding: 70px 20px;
     text-align: center;
 }
 
 .step_title {
     color: #fff;
+    margin-bottom: 5rem;
 }
 
 .step_item_content h5 a{
@@ -14,11 +16,12 @@
     color: #fff;
 }
 
-.single_step_item span i{
+.single_step_item span img{
+    position: absolute;
+    top: 0;
+    transform: translate(70%, -50%);
     color: #fff;
-    padding: 20px;
-    font-size: 1.4rem;
-    background: #5142fc;
+    height: 110px;
     border-radius: 5px;
 }
 

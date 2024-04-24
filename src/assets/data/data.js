@@ -15,13 +15,29 @@ import ava04 from "../images/ava-04.png";
 import ava05 from "../images/ava-05.png";
 import ava06 from "../images/ava-06.png";
 
+import sm01 from "../images/sm01.jpg";
+import sm02 from "../images/sm02.jpg";
+import sm03 from "../images/sm03.jpg";
+import sm04 from "../images/sm04.jpg";
+import sm05 from "../images/sm05.jpg";
+import sm06 from "../images/sm06.jpg";
+import sm07 from "../images/sm07.jpg";
+import sm08 from "../images/sm08.jpg";
+import sm09 from "../images/sm09.jpg";
+import sm10 from "../images/sm10.jpg";
+import sm11 from "../images/sm11.jpg";
+import sm12 from "../images/sm12.jpg";
+
+
 export const NFT__DATA = [
   {
     id: "01",
     title: "Travel Monkey Club",
+    name: "Cubic Trad",
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img01,
     creator: "Trista Francis",
+    collection: sm01,
     creatorImg: ava01,
     currentBid: 5.89,
   },
@@ -29,9 +45,11 @@ export const NFT__DATA = [
   {
     id: "02",
     title: "Sir Lion Swag",
+    name: 'Diamond Dog',
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img02,
     creator: "Trista Francis",
+    collection: sm02,
     creatorImg: ava02,
     currentBid: 5.09,
   },
@@ -39,9 +57,11 @@ export const NFT__DATA = [
   {
     id: "03",
     title: "Civilian",
+    name: 'Morgan11',
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img03,
     creator: "Trista Francis",
+    collection: sm03,
     creatorImg: ava03,
     currentBid: 6.89,
   },
@@ -49,10 +69,12 @@ export const NFT__DATA = [
   {
     id: "04",
     title: "Guard",
+    name: 'Orthogon#720',
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img04,
     creator: "Trista Francis",
     creatorImg: ava04,
+    collection: sm04,
     currentBid: 7.89,
   },
 
@@ -62,6 +84,7 @@ export const NFT__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img05,
     creator: "Trista Francis",
+    collection: sm05,
     creatorImg: ava05,
     currentBid: 4.89,
   },
@@ -73,6 +96,7 @@ export const NFT__DATA = [
     imgUrl: img06,
     creator: "Trista Francis",
     creatorImg: ava06,
+    collection: sm06,
     currentBid: 4.99,
   },
 
@@ -82,6 +106,7 @@ export const NFT__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img07,
     creator: "Trista Francis",
+    collection: sm07,
     creatorImg: ava03,
     currentBid: 5.89,
   },
@@ -92,6 +117,7 @@ export const NFT__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img08,
     creator: "Trista Francis",
+    collection: sm08,
     creatorImg: ava04,
     currentBid: 5.89,
   },
@@ -102,6 +128,7 @@ export const NFT__DATA = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam adipisci cupiditate officia, nostrum et deleniti vero corrupti facilis minima laborum nesciunt nulla error natus saepe illum quasi ratione suscipit tempore dolores. Recusandae, similique modi voluptates dolore repellat eum earum sint.",
     imgUrl: img09,
     creator: "Trista Francis",
+    collection: sm09,
     creatorImg: ava05,
     currentBid: 5.89,
   },

@@ -1,0 +1,102 @@
+@media only screen and (max-width: 992px) {
+    .nft_title {
+      font-size: 0.9rem !important;
+    }
+  
+    .creator_info {
+      font-size: 0.6rem !important;
+    }
+  
+    .creator_info p {
+      font-size: 0.7rem !important;
+    }
+  
+    .bid_btn {
+      padding: 4px 20px !important;
+      font-size: 0.6rem;
+    }
+  
+  
+    /* Add hover effect */
+  }
+  
+  .zoom-on-hover:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .collection_img {
+    position: relative; /* Ensure the container is positioned */
+  }
+  
+  .image-wrapper {
+    overflow: hidden; /* Hide overflow after zoom on hover */
+  }
+  
+  .circular-img-container {
+    position: absolute; /* Position relative to the container */
+    bottom: -20px; /* Move the image 20 pixels up from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    z-index: 1; /* Ensure it's above the main image */
+  }
+  
+  .circular-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .additional-images {
+    display: flex;
+    justify-content: space-between; /* Distribute space between the images */
+    margin-top: 20px; /* Add margin space from the main image */
+  }
+  
+  .additional-image {
+    flex: 0 0 30%; /* Set the width of each image container to 30% */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .additional-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow for a subtle effect */
+  }
+
+  .single_collection_card{
+    padding: 10px;
+    background: #24243d;
+    border-radius: 10px;
+}
+
+.collection_img img{
+    border-radius: 10px;
+
+}
+
+.collection_img {
+    margin-bottom: -15px;
+}
+
+.collection_title{
+    color: #fff;
+    font-size: .9rem;
+    margin-bottom: 15px;
+}
+
+.collection_title a{
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.collection_title a:hover{
+    color: #fff;
+}
