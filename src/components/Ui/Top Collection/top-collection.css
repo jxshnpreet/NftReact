@@ -1,4 +1,14 @@
 
-.trending_title {
+.top_collction_title {
     color: #fff;
+}
+
+.top-collection h3{
+    color: #fff;
+}
+
+.top-collection span a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #5142fe;
 }

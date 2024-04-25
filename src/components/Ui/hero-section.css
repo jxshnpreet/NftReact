@@ -1,7 +1,11 @@
 
 
 .hero_section{
-    margin-top: 120px;
+    margin-top: 80px;
+}
+
+.hero_content {
+    margin-top: 60px;
 }
 
 .hero_content h2{
@@ -27,12 +31,25 @@
 .create_btn{
     border: none;
     outline: none;
-    padding: 7px 25px !important;
+    padding: 10px 25px !important;
     border: 50px !important;
     border-radius: 8px;
     border: 1px solid #5142fc !important;
     font-size: .9rem;
     background: transparent;
+}
+
+.explore_btn{
+    background: rgb(35, 104, 255);
+}
+
+.explore_btn:hover {
+    background: #363b61;
+    transition: .5s;
+}
+
+.create_btn:hover{
+    background: rgb(35, 104, 255);
 }
 
 .explore_btn i, 
@@ -52,12 +69,74 @@
 }
 
 .hero_img{
+    position: relative;
     width: 500px;
-    margin-left: auto;
+    margin-left: 60px;
 }
 
 .hero_img img{
     border-radius: 7px;;
+}
+
+.odometer_slide {
+    background: #24243557;
+    padding: 20px;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff14;
+    max-width: max-content;
+    margin-top: 20px;
+}
+
+.odometer_inner {
+    border-radius: 6px;
+    padding: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff14;
+    background: #242435;
+    max-width: calc(33.33% - 15px); /* Adjust based on the number of odometers you have */
+}
+
+.odometer_inner p{
+    color: rgb(97, 139, 255);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.joined-people-wrapper {
+    position: absolute;
+    bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    height: max-content;
+    background: transparent;
+    border: 1px solid #ffffff14;
+    --webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    background-color: hsla(0, 0%, 100%, .051);
+}
+
+.product-share-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ______________________Responsive_______________________ */
+
+@media only screen and (max-width: 768px) {
+    .odometer_slide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .odometer_inner {
+        max-width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -67,7 +146,7 @@
     }
 
     .hero_section {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     .hero_content h2{
@@ -88,6 +167,21 @@
     .explore_btn {
         font-size: .7rem;
     }
+
+    .odometer_slide {
+        flex-direction: row;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .odometer_inner {
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 5px;
+        max-width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -98,10 +192,49 @@
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .odometer_slide {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .odometer_inner {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 581px) {
+
+    .hero_content{
+        margin-top: 30px;
+    }
+
     .hero_img {
         width: 100%;
         margin: auto;
         margin-top: 50px;
+    }
+
+    .odometer_slide {
+        padding: 15px;
+    }
+
+    .odometer_inner {
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .odometer_slide {
+        padding: 15px;
+    }
+
+    .odometer_inner {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
     }
 }

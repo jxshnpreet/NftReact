@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <>
       <HeroSection />
-      <LiveAuction />
       <TopCollection />
       <CollectionList />
+      <LiveAuction />
       <StepSection />
       <SellerSection />
       <TrendingSection />

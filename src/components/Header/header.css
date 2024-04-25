@@ -53,7 +53,12 @@
 .nav_right .btn{
     padding: 7px 25px;
     border: 1px solid #5142FC;
+    background: #2e3353d8;;
     border-radius: 50px;
+}
+
+.nav_right .btn:hover {
+    background:  rgb(35, 104, 255);
 }
 
 .nav_right .btn a{

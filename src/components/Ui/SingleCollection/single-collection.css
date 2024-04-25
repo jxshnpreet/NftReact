@@ -1,5 +1,5 @@
 @media only screen and (max-width: 992px) {
-    .nft_title {
+    .list_title {
       font-size: 0.9rem !important;
     }
   
@@ -31,6 +31,7 @@
   
   .image-wrapper {
     overflow: hidden; /* Hide overflow after zoom on hover */
+    height: 230px;
   }
   
   .circular-img-container {
@@ -39,6 +40,7 @@
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     border-radius: 50%;
+    border: 5px solid #24243d;
     overflow: hidden;
     width: 50px; /* Adjust the size as needed */
     height: 50px; /* Adjust the size as needed */
@@ -71,7 +73,7 @@
   }
 
   .single_collection_card{
-    padding: 10px;
+    padding: 20px;
     background: #24243d;
     border-radius: 10px;
 }

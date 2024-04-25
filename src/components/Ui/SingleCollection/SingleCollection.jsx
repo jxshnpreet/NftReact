@@ -13,34 +13,26 @@ const SingleCollection = (props) => {
             <img src={imgUrl} alt="" className="w-100 zoom-on-hover" />
             </div>
 
-            {/* Circular image */}
             <div className="circular-img-container">
-            <a
-                href="https://unsplash.com/photos/a-mountain-in-the-middle-of-a-body-of-water-aE6F7CmHnx0"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
                 <img src={creatorImg} alt="" className="circular-img" />
-            </a>
             </div>
         </div>
 
         <div className="additional-images">
-            <div className="additional-image">
-            <img src={collection} alt="" />
-            </div>
-            <div className="additional-image">
-            <img src={collection} alt="" />
-            </div>
-            <div className="additional-image">
-            <img src={collection} alt="" />
-            </div>
+        {collection.map((image, index) => (
+                    <div className="additional-image" key={index}>
+                        <img src={image} alt="" />
+                    </div>
+                ))}
         </div>
         
-        <div className="nft_content">
-            <h5 className='nft_title mt-3 mb-2'>
+        <div className="collection_content d-flex justify-content-between align-items-center">
+            <h5 className='collection_title mt-3 mb-0'>
                 <Link to={`/market/${id}`}>{name}</Link>
             </h5>
+            <span className='items mt-3'>
+                15 items
+            </span>
         </div>
         
     </div>

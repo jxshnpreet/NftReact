@@ -3,8 +3,6 @@ import './seller.css';
 import { Container, Row, Col } from 'reactstrap';
 import { SELLER__DATA } from '../../../assets/data/data';
 
-import ava01 from '../../../assets/images/ava-01.png';
-
 const SellerSection = () => {
   return (
     <section>
