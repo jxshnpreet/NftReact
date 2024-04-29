@@ -42,7 +42,7 @@ const CollectionList = () => {
       <Container>
         <Row className="list_wrapper">
           {LIST_DATA.map((item, index) => (
-            <Col key={index} className="mb-4" data-aos="fade-up">
+            <Col lg="2" md='4' sm="6" key={index} className="mb-4" data-aos="fade-up">
               <div className="single_list_item">
                 <span>
                   <i className={item.icon}></i>
