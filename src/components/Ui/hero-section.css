@@ -106,7 +106,9 @@
 
 .joined-people-wrapper {
     position: absolute;
-    bottom: 50px;
+    bottom: -150px;
+    left: 30px;
+    /* right: 230px; */
     padding: 20px;
     border-radius: 10px;
     max-width: 300px;
@@ -116,6 +118,20 @@
     --webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     background-color: hsla(0, 0%, 100%, .051);
+    z-index: 1;
+    animation: jumpEffect 1s infinite alternate; /* Apply jump effect animation */
+}
+
+@keyframes jumpEffect {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust this value for jump height */
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .product-share-wrapper {
@@ -136,6 +152,10 @@
         max-width: 100%;
         font-size: 13px;
         font-weight: 400;
+    }
+
+    .joined-people-wrapper {
+        display: none;
     }
 }
 
@@ -182,6 +202,10 @@
         font-size: 14px;
         font-weight: 400;
     }
+
+    .joined-people-wrapper {
+        /* display: none; */
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -225,6 +249,10 @@
         margin-right: 0;
         max-width: 100%;
     }
+
+    .joined-people-wrapper {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 455px) {
@@ -236,5 +264,8 @@
         margin-right: 0;
         width: 100%;
         text-align: center;
+    }
+    .joined-people-wrapper {
+        display: none;
     }
 }

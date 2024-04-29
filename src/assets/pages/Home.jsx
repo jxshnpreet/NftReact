@@ -7,6 +7,7 @@ import TrendingSection from '../../components/Ui/Trending-Section/TrendingSectio
 import StepSection from '../../components/Ui/Step Section/StepSection';
 import TopCollection from '../../components/Ui/Top Collection/TopCollection';
 import CollectionList from '../../components/Ui/Collection List/CollectionList';
+import VideoArea from '../../components/Ui/Video Area/VideoArea';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <StepSection />
       <SellerSection />
       <TrendingSection />
+      <VideoArea />
     </>
   )
 }

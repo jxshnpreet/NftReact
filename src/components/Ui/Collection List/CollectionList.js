@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./collection.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const LIST_DATA = [
   {
@@ -31,12 +33,16 @@ const LIST_DATA = [
 ];
 
 const CollectionList = () => {
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+  }, []);
+
   return (
     <section>
       <Container>
         <Row className="list_wrapper">
           {LIST_DATA.map((item, index) => (
-            <Col key={index} className="mb-4">
+            <Col key={index} className="mb-4" data-aos="fade-up">
               <div className="single_list_item">
                 <span>
                   <i className={item.icon}></i>

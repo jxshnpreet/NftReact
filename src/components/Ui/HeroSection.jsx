@@ -87,17 +87,18 @@ const HeroSection = () => {
               }}
             >
               <img ref={imgRef} src={heroImg} alt="" className='w-100' />
-            </div>
-            {/* <div className="joined-people-wrapper">
+
+              <div className="joined-people-wrapper">
               <div className="product-share-wrapper">
                 <div className="profile-share">
-                  <h2>Floating Box</h2>
+                  <h2>More than 25K</h2>
                   <p className='desc'>
                     Million of people are sell there NFTs in Nuron marketplaces. Create & Sell Your NFT's.
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
+            </div>
 
 
           </Col>
