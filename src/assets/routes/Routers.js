@@ -16,7 +16,7 @@ import EditProfile from '../pages/EditProfile';
 const Routers = () => {
   return (
     <Routes>
-        <Route path='/' element={<Navigate to ='/home/' />} />
+        <Route path='/' element={<Navigate to ='/' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/market' element={<Market />} />
         <Route path='/create' element={<Create />} />
