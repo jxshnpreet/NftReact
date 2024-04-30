@@ -41,14 +41,14 @@ const StepSection = () => {
         <section>
             <Container>
                 <Row>
-                    <Col lg='12' className='mb-5' data-aos="fade-up">
+                    <Col lg='12' className='mb-5' data-aos="fade-up" data-aos-offset='50'>
                         <h3 className="step_title">
                             Create and sell your NFTs
                         </h3>
                     </Col>
 
                     {STEP_DATA.map((item, index) => (
-                        <Col lg="3" md='4' sm="6" key={index} className='mb-4' data-aos="fade-up">
+                        <Col lg="3" md='4' sm="6" key={index} className='mb-4' data-aos="fade-up" data-aos-offset='50'>
                             <div className="single_step_item">
                                 <span><img src={item.icon} alt='' /></span>
                                 <div className="step_item_content">
@@ -61,7 +61,7 @@ const StepSection = () => {
                         </Col>
                     ))}
 
-                    <Col lg='12' className='mt-5' data-aos="fade-up">
+                    <Col lg='12' className='mt-5' data-aos="fade-up" data-aos-offset='50'>
                         <div className="subscribe-wrapper_1 text-center">
                             <h3 className='subscribe_title mb-10'>Join our newsletter</h3>
                             <p className="subtitle">Weekly Free UI resource straight to you inbox</p>

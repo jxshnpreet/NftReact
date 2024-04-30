@@ -16,13 +16,13 @@ const TrendingSection = () => {
       <Container>
         <Row>
           <Col lg='12'>
-            <h3 className="trending_title mb-5" data-aos="fade-up">
+            <h3 className="trending_title mb-5" data-aos="fade-up" data-aos-offset='50'>
               Trending
             </h3>
           </Col>
 
           {NFT__DATA.slice(0, 8).map(item => (
-            <Col lg='3' md='4' sn='6' key={item.id} className='mb-4' data-aos="fade-up">
+            <Col lg='3' md='4' sn='6' key={item.id} className='mb-4' data-aos="fade-up" data-aos-offset='50'>
               <NftCard item={item} />
             </Col>
           ))}

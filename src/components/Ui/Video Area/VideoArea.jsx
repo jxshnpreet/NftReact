@@ -14,7 +14,7 @@ const VideoArea = () => {
     <section>
       <Container>
         <Row>
-          <Col lg='12' className='mb-5' data-aos="fade-up">
+          <Col lg='12' className='mb-5' data-aos="fade-up" data-aos-offset='50'>
             <div className='title-area text-center'>
               <h3 className='title mb-4'>
                 Meet with Nuron
@@ -27,7 +27,7 @@ const VideoArea = () => {
         </Row>
 
         <Row>
-          <Col lg='12' className='position' data-aos="fade-up">
+          <Col lg='12' className='position' data-aos="fade-up" data-aos-offset='50'>
             <button type='button' aria-label='Play video' className='video-play-button btn-large with-animation'>
               <span><i className="ri-google-play-fill"></i></span>
             </button>

@@ -18,7 +18,7 @@ const LiveAuction = () => {
       <Container>
         <Row>
           <Col lg='12' className='mb-5'>
-            <div className="live_auction_top d-flex align-items-center justify-content-between" data-aos="fade-up">
+            <div className="live_auction_top d-flex align-items-center justify-content-between" data-aos="fade-up" data-aos-offset='50'>
               <h3>Live Bidding</h3>
               <span><Link to='/market'>Explore more</Link></span>
             </div>
@@ -26,7 +26,7 @@ const LiveAuction = () => {
 
           {
             NFT__DATA.slice(0, 1).map((item) => (
-              <Col lg='3' md='4' sm='6' className='mb-4' key={item.id} data-aos="fade-up">
+              <Col lg='3' md='4' sm='6' className='mb-4' key={item.id} data-aos="fade-up" data-aos-offset='50'>
                 <NftCard item={item} />
               </Col>
             ))

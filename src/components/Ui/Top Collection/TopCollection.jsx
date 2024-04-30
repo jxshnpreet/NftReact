@@ -9,14 +9,14 @@ import 'aos/dist/aos.css';
 
 const TopCollection = () => {
   useEffect(() => {
-    Aos.init({ duration: 800 });
+    Aos.init({ duration: 500 });
   }, []);
 
   return (
     <section>
       <Container>
         <Row>
-          <Col lg='12' className='mb-5' data-aos="fade-up">
+          <Col lg='12' className='mb-5' data-aos="fade-up" data-aos-offset='50'>
             <div className="top-collection d-flex align-items-center justify-content-between">
               <h3 className="top_collction_title">
                 Top Collection
@@ -26,7 +26,7 @@ const TopCollection = () => {
           </Col>
 
           {NFT__DATA.slice(0, 4).map(item => (
-            <Col lg='3' md='4' sn='6' key={item.id} className='mb-4' data-aos="fade-up">
+            <Col lg='3' md='4' sn='6' key={item.id} className='mb-4' data-aos="fade-up" data-aos-offset='50'>
               <SingleCollection item={item} />
             </Col>
           ))}

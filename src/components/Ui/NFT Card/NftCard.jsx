@@ -14,7 +14,7 @@ const NftCard = (props) => {
     }, []);
 
     return (
-        <div className="single_nft_card" data-aos="fade-up">
+        <div className="single_nft_card" data-aos="fade-up" data-aos-offset='50'>
             <div className="nft_img">
                 <img src={imgUrl} alt="" className='w-100' />
             </div>

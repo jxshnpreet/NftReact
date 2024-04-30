@@ -12,7 +12,7 @@ const SingleCollection = (props) => {
   const { id, name, imgUrl, collection, creatorImg } = props.item;
 
   return (
-    <div className="single_collection_card" data-aos="fade-up">
+    <div className="single_collection_card" data-aos="fade-up data-aos-offset='50'">
       <div className="collection_img">
         <div className="image-wrapper">
           <img src={imgUrl} alt="" className="w-100 zoom-on-hover" />

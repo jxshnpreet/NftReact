@@ -14,7 +14,7 @@ const SellerSection = () => {
     <section>
       <Container>
         <Row>
-          <Col lg='12' className='mb-5' data-aos="fade-up">
+          <Col lg='12' className='mb-5' data-aos="fade-up" data-aos-offset='50'>
             <div className="seller_section_title">
               <h3>Top Seller</h3>
             </div>
@@ -22,7 +22,7 @@ const SellerSection = () => {
 
           {
             SELLER__DATA.map((item) => (
-              <Col lg='2' md='3' sm='4' xs='6' key={item.id} className='mb-4' data-aos="fade-up">
+              <Col lg='2' md='3' sm='4' xs='6' key={item.id} className='mb-4' data-aos="fade-up" data-aos-offset='50'>
                 <div className="single_seller_card d-flex align-items-center gap-3">
                   <div className="seller_img">
                     <img src={item.sellerImg} alt="" className='w-100' />
